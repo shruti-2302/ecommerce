@@ -15,8 +15,7 @@ const otp=require('./view/otp.route');
 
 dotenv.config();
 const app = express();
-
-const port = process.env.PORT || 2300;
+const port = process.env.PORT || 2309;
 
 cloudinary.config({ 
   cloud_name: process.env.CLOUD_NAME, 
